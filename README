@@ -1,0 +1,6 @@
+libstubborn
+===========
+
+provide generic stub functions to be consumed by other applications
+
+License: ISC
