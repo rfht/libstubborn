@@ -1,6 +1,7 @@
 libstubborn
 ===========
 
-provide generic stub functions to be consumed by other applications
+header-only library to provide generic and some application-specific
+stub functions
 
 License: ISC
