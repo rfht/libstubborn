@@ -15,6 +15,7 @@
  */
 
 #include <stddef.h>
+#include <stdlib.h>
 
 /* int return value */
 int int_0() { return 0; }
@@ -25,6 +26,7 @@ char *string_empty() { return ""; }
 
 /* pointer return value */
 void *ptr_null() { return NULL; }
+void *ptr_zeroed() { return calloc(1024, sizeof(int)); }
 
 /* Celeste */
 int int_celeste_event(void *a, char *b, int c, int *d) {
