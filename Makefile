@@ -17,4 +17,4 @@ stubborn.o:
 
 .PHONY: clean
 clean:
-	$(RM) $(TARGET_LIB) stubborn.o
+	$(RM) $(TARGET_LIB)* stubborn.o
